@@ -186,7 +186,7 @@ Flow:
 
 the output by rank wise
 
-![Alt text](/Screenshot from 2026-03-23 20-37-12.png)
+![Alt text](Screenshot from 2026-03-23 20-37-12.png)
 
 ---
 
