@@ -183,8 +183,9 @@ Flow:
 5. Stream the answer from GLM-OCR token by token
 
 **Customize the system prompt** in the `RAG_SYSTEM_PROMPT` variable at the top of Section 7.
-![alt text](<Screenshot from 2026-03-23 20-37-12.png>)
 
+the output by rank wise
+/home/shamanth/Pictures/Screenshots/Screenshot from 2026-03-23 20-37-12.png
 ---
 
 ### Section 8 — Evaluation
