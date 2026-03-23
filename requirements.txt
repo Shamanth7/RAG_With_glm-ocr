@@ -3,7 +3,6 @@
 #  Compatible with Python 3.10 – 3.13
 #  All packages run fully OFFLINE after install
 # ─────────────────────────────────────────────
-
 # ── Core Notebook ──────────────────────────────
 jupyter>=1.0.0
 ipykernel>=6.29.0
