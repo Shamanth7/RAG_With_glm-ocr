@@ -186,7 +186,8 @@ Flow:
 
 the output by rank wise
 
-/home/shamanth/Pictures/Screenshots/Screenshot from 2026-03-23 20-37-12.png
+![Alt text](/home/shamanth/Pictures/Screenshots/Screenshot from 2026-03-23 20-37-12.png)
+
 ---
 
 ### Section 8 — Evaluation
