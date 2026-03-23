@@ -184,9 +184,8 @@ Flow:
 
 **Customize the system prompt** in the `RAG_SYSTEM_PROMPT` variable at the top of Section 7.
 
-the output by rank wise
-
-![Alt text](Screenshot from 2026-03-23 20-37-12.png)
+the output in the rank wise
+![alt text](<Screenshot from 2026-03-23 20-37-12.png>)
 
 ---
 
