@@ -1,0 +1,68 @@
+# ─────────────────────────────────────────────
+#  Multi-Model RAG System — Requirements
+#  Compatible with Python 3.10 – 3.13
+#  All packages run fully OFFLINE after install
+# ─────────────────────────────────────────────
+
+# ── Core Notebook ──────────────────────────────
+jupyter>=1.0.0
+ipykernel>=6.29.0
+ipywidgets>=8.1.0
+
+# ── Data Ingestion ─────────────────────────────
+pypdf>=4.2.0
+pdfplumber>=0.11.0
+python-docx>=1.1.0
+openpyxl>=3.1.0
+pandas>=2.2.0
+Pillow>=10.4.0
+pytesseract>=0.3.10
+python-magic>=0.4.27
+chardet>=5.2.0
+markdown>=3.6
+beautifulsoup4>=4.12.0
+lxml>=5.2.0
+
+# ── Chunking ───────────────────────────────────
+langchain>=0.2.14
+langchain-community>=0.2.12
+langchain-core>=0.2.35
+tiktoken>=0.7.0
+
+# ── Embedding (local, offline) ─────────────────
+sentence-transformers>=3.0.0
+torch>=2.3.0
+transformers>=4.43.0
+FlagEmbedding>=1.2.11
+einops>=0.8.0
+
+# ── Vector Store — FAISS (local) ───────────────
+# faiss-cpu 1.8.0 only has wheels for Python <=3.12
+# >=1.7.4 lets pip/uv pick the right wheel for Python 3.13
+faiss-cpu>=1.7.4
+numpy>=1.26.0,<2.0.0
+
+# ── Retrieval ──────────────────────────────────
+rank-bm25>=0.2.2
+scikit-learn>=1.5.0
+
+# ── GLM-OCR / Local LLM Client ─────────────────
+requests>=2.32.0
+httpx>=0.27.0
+sseclient-py>=1.8.0
+python-dotenv>=1.0.0
+
+# ── Persistence & Metadata ─────────────────────
+tinydb>=4.8.0
+
+# ── Evaluation ─────────────────────────────────
+rouge-score>=0.1.2
+nltk>=3.8.0
+
+# ── Utilities ──────────────────────────────────
+tqdm>=4.66.0
+colorlog>=6.8.0
+rich>=13.7.0
+pydantic>=2.8.0
+tenacity>=8.5.0
+python-dateutil>=2.9.0
